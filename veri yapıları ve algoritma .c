@@ -1,7 +1,7 @@
 #include <stdio.h>
 //Atakan Korkmaz
 //2420171028
-//BTK Akedemi SERTİFİKASI: https://www.btkakademi.gov.tr/api/service/v1/employee/certificates/issued/download/230397859?token=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyMzk2MjE5IiwiZG9tYWluIjoiQlRLIiwiaXNzIjoiS0IiLCJwaWQiOjIzOTg2MTksIm9pZCI6NTEsImV4cCI6MTc3MDc0MzAwMiwidXVpZCI6IjdmMTljYTA5LTlkNGItNDNhOS1iZjcwLTAyMTIxZTQ1ZmY4MSIsImlhdCI6MTc2Mjk2NzAwMiwianRpIjoiNDgxZTdkMGMtMWU4NC00ZTljLThmMzEtZDVhYjQxNDBmNGFkIn0.KrITLqB8qYE1aTazbKafV4VIOLB5OvTTfk2pGXKghcXfpn4HbL59Ls1a9cWmB1dRwW9wc4SxoRvZTHf55PL5lCgy1AUlubpJYqUe3gBqGVFwFCPBw6iknHepdeUk5bhCMFh9c3W2dvH9UJWcCbPo2sXY8YcydqnlA496cJ71WNvRl6QgOUuXjViZWWiY3Hi2KgfQ2qZTpmI8NQ6ef9SiUHlM5Ao5Mk0ilWP3US24y2ubl8QSTbeq7eCY4b9zCrXhG3yiyGBlsB2nGu3xG025eKdkhQFFKHL3jVwGQ1XoS2N3dtQ8AeS0CIadyY5SQnCuIacNb8Zwzo1l7XK0HEHtzg
+// https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=zXztnvGb1y
 
 void bubbleSort(int dizi[], int n) {
     int i, j, gecici;
