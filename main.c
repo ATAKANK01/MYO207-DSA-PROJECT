@@ -3,7 +3,7 @@
 //2420171028
 // https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=zXztnvGb1y
 
-void bubbleSort(int dizi[], int n) {
+void boloncuk_sirala(int dizi[], int n) {
     int i, j, gecici;
 
     for (i = 0; i < n - 1; i++) {
@@ -18,7 +18,7 @@ void bubbleSort(int dizi[], int n) {
     }
 }
 
-int binarySearch(int dizi[], int n, int aranan) {
+int ikili_arama(int dizi[], int n, int aranan) {
     int bas = 0;
     int son = n - 1;
     
@@ -38,7 +38,7 @@ int binarySearch(int dizi[], int n, int aranan) {
 
 int main() {
 
-    int sayilar[] = {10,28,35,49,34,73,49,22,72,81};
+    int sayilar[] = {10,28,35,42,34,73,49,22,72,81};
   
     int n = sizeof(sayilar) / sizeof(sayilar[0]);
     int i, arananSayi, sonuc;
@@ -49,7 +49,7 @@ int main() {
     }
     printf("\n");
 
-    bubbleSort(sayilar, n);
+    boloncuk_sirala(sayilar, n);
 
     printf("Siralama sonrasi: \n");
     for (i = 0; i < n; i++) {
@@ -60,7 +60,7 @@ int main() {
     printf("Dizide aramak istediginiz sayiyi girin: \n");
     scanf("%d", &arananSayi);
 
-    sonuc = binarySearch(sayilar, n, arananSayi);
+    sonuc = ikili_arama(sayilar, n, arananSayi);
 
     if (sonuc != -1) {
         printf("Basarili! %d sayisi dizinin %d. indeksinde bulundu. \n", arananSayi, sonuc);
